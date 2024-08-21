@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import Table from '@/components/Table/Table'
 import { Card } from '@robur_/ui-kit'
 
