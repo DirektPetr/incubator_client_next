@@ -1,4 +1,4 @@
-import { Card } from '@robur_/ui-kit'
+import { Card, Recaptcha, Textarea } from '@robur_/ui-kit'
 import Link from 'next/link'
 
 export default function Components() {
@@ -8,6 +8,8 @@ export default function Components() {
       <Card>
         <h1>My Test Hi!!!</h1>
       </Card>
+      <Textarea />
+      <Recaptcha />
       <div className={'flex flex-col text-lg text-yellow-400'}>
         <Link href={'/'}>Back</Link>
       </div>
